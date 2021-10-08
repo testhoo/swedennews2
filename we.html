@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+
+    <title>Min lön</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Rubik:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/vendor/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+    <script src="js/vendor/html5shiv.min.js"></script>
+    <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://use.fontawesome.com/9b701ba3c8.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <div class="header-fixed">
+        <div class="container-fluid pl-120 pr-120 position-relative">
+            <div class="row d-flex align-items-center">
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <!-- Logo -->
+                    <p class="logo text-uppercase">
+                        <a href="index.html">Jag är en investerare</a>
+                    </p>
+                    <!-- End of Logo -->
+                </div>
+
+                <div class="col-lg-9 col-md-8 col-6 d-flex justify-content-end position-static">
+                    <!-- Nav Menu -->
+                    <div class="nav-menu-cover">
+                        <ul class="nav nav-menu">
+                            <li><a href="index.html">Viktigaste</a></li>
+                            <li class="menu-item-has-children"><a href="#">Artiklar</a>
+                                <ul class="sub-menu"><li class="sub-menu-close"> <i class="fa fa-long-arrow-left"></i> Artiklar</li>
+                                    
+                                    <li><a href="1e6d4ab0832a167b7c7c8e870982638a.html">Hur rika människor tr...</a></li>
+                                    
+
+                                    <li><a href="630a5f9ea6bcb482f9f7df20446d430e.html">Hur man sparar pengar ...</a></li>
+                                    
+
+                                    <li><a href="CoMYzXoNyRcqOl.html">Detta förklarar varf...</a></li>
+                                    
+
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Kontakter</a></li>
+                            <li><a href="policy.html">Sekretesspolicy</a></li>
+                            <li><a href="terms.html">Regler och villkor</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Nav Menu -->
+
+                    <!-- Mobile Menu -->
+                    <div class="mobile-menu-cover">
+                        <ul class="nav mobile-nav-menu">
+                            <li class="search-toggle-open">
+                                <img alt="" class="img-fluid svg" src="assets/images/search-icon.svg">
+                            </li>
+                            <li class="search-toggle-close hide">
+                                <img alt="" class="img-fluid" src="assets/images/close.svg">
+                            </li>
+                            <li class="nav-menu-toggle">
+                                <img alt="" class="img-fluid svg" src="assets/images/menu-toggler.svg">
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End of Mobile Menu -->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<style>
+    .header {
+        min-height: 107px;
+    }
+    .header .header-fixed {
+        padding: 20px 0px;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+        z-index: 9999;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        box-shadow: 0 0 2px -1px #000;
+        background: #ffffff;
+    }
+    .header .header-fixed.is-sticky {
+        padding: 0px 0px;
+        background-color: #fff;
+    }
+    @media only screen and (max-width: 991px) {
+        .header .logo {
+            margin-left: 30px;
+        }
+    }
+    @media only screen and (max-width: 575px) {
+        .header .logo {
+            margin-left: 0;
+        }
+    }
+
+    @media only screen and (max-width: 991px) {
+        .nav-menu {
+            display: block;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            width: 100%;
+            padding: 0px 15px 0px 45px;
+            opacity: 0;
+            visibility: hidden;
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+            z-index: -99;
+        }
+    }
+    @media only screen and (max-width: 575px) {
+        .nav-menu {
+            padding: 0px 0px 0px 15px;
+        }
+    }
+    .nav-menu.show {
+        opacity: 1;
+        visibility: visible;
+        z-index: 99;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu.show {
+            margin-top: 0;
+        }
+    }
+    .nav-menu li {
+        position: relative;
+    }
+    .nav-menu li:hover > a {
+        color: #FF7171;
+    }
+    .nav-menu li.current-menu-item a {
+        color: #FF7171;
+    }
+    .nav-menu li.menu-item-has-children {
+        padding-right: 30px;
+        position: relative;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu li.menu-item-has-children {
+            position: static;
+        }
+    }
+    .nav-menu li.menu-item-has-children:hover > .sub-menu {
+        visibility: visible;
+        opacity: 1;
+        margin-top: 0;
+    }
+    .nav-menu li.menu-item-has-children > a {
+        position: relative;
+    }
+    .nav-menu li.menu-item-has-children > a:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        left: 100%;
+        margin-left: -23px;
+        font-family: FontAwesome;
+    }
+    .nav-menu li a {
+        color: #333;
+        display: block;
+    }
+    .nav-menu li .sub-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        min-width: 185px;
+        height: auto;
+        box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.04);
+        background-color: #fff;
+        padding: 25px 0px;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: 0.4s ease-in-out;
+        transition: 0.4s ease-in-out;
+        z-index: 9;
+        margin-top: -10px;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu li .sub-menu {
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+            overflow-y: auto;
+            margin-top: 0;
+        }
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu li .sub-menu.show {
+            left: 0;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    .nav-menu li .sub-menu li.sub-menu-close {
+        display: none;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu li .sub-menu li.sub-menu-close {
+            display: block;
+            font-size: 20px;
+            font-family: "Spectral", serif;
+            padding: 5px 30px;
+            padding-bottom: 15px;
+            cursor: pointer;
+            color: #FF7171;
+        }
+    }
+    .nav-menu li .sub-menu li a {
+        font-size: 16px;
+        font-family: "Spectral", serif;
+        padding: 8px 30px;
+    }
+    .nav-menu > li {
+        margin-right: 30px;
+        padding: 20px 0px;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu > li {
+            padding: 15px 0px;
+        }
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu > li:first-child {
+            margin-top: 15px;
+        }
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu > li:last-child {
+            margin-bottom: 15px;
+        }
+    }
+    .nav-menu > li.menu-item-has-children {
+        padding-right: 15px;
+        position: relative;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu > li.menu-item-has-children {
+            position: static;
+        }
+    }
+    .nav-menu > li.menu-item-has-children > a {
+        position: relative;
+    }
+    .nav-menu > li.menu-item-has-children > a:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        left: 100%;
+        margin-left: 5px;
+        font-family: FontAwesome;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu > li.menu-item-has-children > a:after {
+            content: "";
+        }
+    }
+    .nav-menu > li > a {
+        font-family: "Spectral", serif;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu > li > a {
+            font-size: 20px;
+        }
+    }
+    .nav-menu > li > .sub-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu > li > .sub-menu {
+            top: 0;
+            left: 100%;
+        }
+    }
+
+    .mobile-nav-menu li {
+        padding: 20px 0px;
+        cursor: pointer;
+    }
+    .mobile-nav-menu li.nav-menu-toggle {
+        display: none;
+        margin-right: 30px;
+    }
+    @media only screen and (max-width: 991px) {
+        .mobile-nav-menu li.nav-menu-toggle {
+            display: block;
+        }
+    }
+    @media only screen and (max-width: 575px) {
+        .mobile-nav-menu li.nav-menu-toggle {
+            margin-right: 0;
+        }
+    }
+    .mobile-nav-menu li.search-toggle-open, .mobile-nav-menu li.search-toggle-close {
+        width: 18px;
+    }
+    @media only screen and (max-width: 991px) {
+        .mobile-nav-menu li.search-toggle-open, .mobile-nav-menu li.search-toggle-close {
+            margin-right: 20px;
+        }
+    }
+    .mobile-nav-menu li.hide {
+        display: none;
+    }
+    .mobile-nav-menu li svg {
+        height: 15px;
+    }
+</style>
+
+<section id="main-slider" class="no-margin main-banner">
+    
+    <div class="item" style="background-image: url(./assets/images/austin-distel-_s7-kx8gel0-unsplash.jpg); min-height: 500px; background-size: cover;">
+        <div class="container">
+            <div class="row slide-margin pt-5">
+                <div class="col-sm-6">
+                    <div class="carousel-content">
+                        <h1 class="animation animated-item-1 text-shadow">Hur rika människor tror (och så kommer även din familj)</h1>
+                        <a class="btn-slide animation animated-item-3 text-shadow" href="1e6d4ab0832a167b7c7c8e870982638a.html">
+                            Läs mer
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</section>
+
+<style>
+    #main-slider {
+        position: relative;
+    }
+
+    .no-margin {
+        margin: 0;
+        padding: 0;
+    }
+
+    #main-slider .carousel .carousel-content {
+        margin-top: 150px;
+    }
+
+    #main-slider .carousel .slide-margin {
+        margin-top: 140px;
+    }
+
+    #main-slider .carousel h2 {
+        color: #fff;
+    }
+
+    #main-slider .carousel .btn-slide {
+        padding: 8px 20px;
+        background: #c52d2f;
+        color: #fff;
+        border-radius: 4px;
+        margin-top: 25px;
+        display: inline-block;
+    }
+
+    #main-slider .carousel .slider-img {
+        text-align: right;
+        position: absolute;
+    }
+
+
+    #main-slider .carousel .item {
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        left: 0 !important;
+        opacity: 0;
+        top: 0;
+        position: absolute;
+        width: 100%;
+        display: block !important;
+        height: 730px;
+        -webkit-transition: opacity ease-in-out 500ms;
+        -moz-transition: opacity ease-in-out 500ms;
+        -o-transition: opacity ease-in-out 500ms;
+        transition: opacity ease-in-out 500ms;
+    }
+
+    #main-slider .carousel .item:first-child {
+        top: auto;
+        position: relative;
+    }
+
+    #main-slider .carousel .item.active {
+        opacity: 1;
+        -webkit-transition: opacity ease-in-out 500ms;
+        -moz-transition: opacity ease-in-out 500ms;
+        -o-transition: opacity ease-in-out 500ms;
+        transition: opacity ease-in-out 500ms;
+        z-index: 1;
+    }
+
+    #main-slider .prev,
+    #main-slider .next {
+        position: absolute;
+        top: 50%;
+        background-color: #c52d2f;
+        color: #fff;
+        display: inline-block;
+        margin-top: -25px;
+        height: 40px;
+        line-height: 40px;
+        width: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 4px;
+        z-index: 5;
+    }
+
+    #main-slider .prev:hover,
+    #main-slider .next:hover {
+        background-color: #000;
+    }
+
+    #main-slider .prev {
+        left: 10px;
+    }
+
+    #main-slider .next {
+        right: 10px;
+    }
+
+    #main-slider .carousel-indicators li {
+        width: 20px;
+        height: 20px;
+        background-color: #fff;
+        margin: 0 15px 0 0;
+        position: relative;
+    }
+
+    #main-slider .carousel-indicators li:after {
+        position: absolute;
+        content: "";
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+        background: rgba(0, 0, 0, 0);
+        border: 1px solid #FFF;
+        left: -3px;
+        top: -3px;
+    }
+
+    #main-slider .carousel-indicators .active {
+        width: 20px;
+        height: 20px;
+        background-color: #c52d2f;
+        margin: 0 15px 0 0;
+        border: 1px solid #c52d2f;
+        position: relative;
+    }
+
+    #main-slider .carousel-indicators .active:after {
+        position: absolute;
+        content: "";
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+        background: #c52d2f;
+        border: 1px solid #c52d2f;
+        left: -3px;
+        top: -3px;
+    }
+
+    #main-slider .active .animation.animated-item-1 {
+        -webkit-animation: fadeInUp 300ms linear 300ms both;
+        -moz-animation: fadeInUp 300ms linear 300ms both;
+        -o-animation: fadeInUp 300ms linear 300ms both;
+        -ms-animation: fadeInUp 300ms linear 300ms both;
+        animation: fadeInUp 300ms linear 300ms both;
+    }
+
+    #main-slider .active .animation.animated-item-2 {
+        -webkit-animation: fadeInUp 300ms linear 600ms both;
+        -moz-animation: fadeInUp 300ms linear 600ms both;
+        -o-animation: fadeInUp 300ms linear 600ms both;
+        -ms-animation: fadeInUp 300ms linear 600ms both;
+        animation: fadeInUp 300ms linear 600ms both;
+    }
+
+    #main-slider .active .animation.animated-item-3 {
+        -webkit-animation: fadeInUp 300ms linear 900ms both;
+        -moz-animation: fadeInUp 300ms linear 900ms both;
+        -o-animation: fadeInUp 300ms linear 900ms both;
+        -ms-animation: fadeInUp 300ms linear 900ms both;
+        animation: fadeInUp 300ms linear 900ms both;
+    }
+
+    #main-slider .active .animation.animated-item-4 {
+        -webkit-animation: fadeInUp 300ms linear 1200ms both;
+        -moz-animation: fadeInUp 300ms linear 1200ms both;
+        -o-animation: fadeInUp 300ms linear 1200ms both;
+        -ms-animation: fadeInUp 300ms linear 1200ms both;
+        animation: fadeInUp 300ms linear 1200ms both;
+    }
+</style>
+
+<div id="colorlib-container">
+    <div class="container">
+        <div class="row">
+            <div class="content">
+                
+                <article class="blog-entry">
+                    <div class="blog-wrap">
+                        <span class="category text-center"><a href="1e6d4ab0832a167b7c7c8e870982638a.html">Hur man sparar pengar</a></span>
+                        <h2 class="text-center"><a href="1e6d4ab0832a167b7c7c8e870982638a.html">Hur rika människor tror (och så kommer även din familj)</a></h2>
+                        <div class="blog-image">
+                            <a href="1e6d4ab0832a167b7c7c8e870982638a.html" class="blog-img text-center" style="background-image: url(./assets/images/austin-distel-_s7-kx8gel0-unsplash.jpg); background-size: cover"><span><i class="icon-link"></i></span></a>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p class="first-letra"> <strong></strong> I världen av stora pengar, vi är vana att tänka i termer av vår personliga ekonomi.Vi kanske inte tycker om när vi "leva inom våra tillgångar"? Men bara för en kort tid. Sedan kommer vi tillbaka till verkligheten och inse hur extremt grunda vår egen "plånbok" är.En rik person som tycker om sina pengar hela tiden. Och du, med din "önskelista", tänka på hur man ska spendera den i varje ögonblick.Vem som har rätt? Och vem har fel? Detta är vad jag föreslår att ...</p>
+                    </div>
+                    <p class="text-center"><a href="1e6d4ab0832a167b7c7c8e870982638a.html" class="btn btn-primary btn-custom">Läs mer</a></p>
+                </article>
+                
+
+                <article class="blog-entry">
+                    <div class="blog-wrap">
+                        <span class="category text-center"><a href="630a5f9ea6bcb482f9f7df20446d430e.html">Hur man sparar pengar</a></span>
+                        <h2 class="text-center"><a href="630a5f9ea6bcb482f9f7df20446d430e.html">Hur man sparar pengar (4 bra tips)</a></h2>
+                        <div class="blog-image">
+                            <a href="630a5f9ea6bcb482f9f7df20446d430e.html" class="blog-img text-center" style="background-image: url(./assets/images/christina-wocintechchat-com-faefwcdokig-unsplash.jpg); background-size: cover"><span><i class="icon-link"></i></span></a>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p class="first-letra"> <strong></strong> Varje person, med rätt vilja kan uppnå en hög inkomst. Det är dessa vanor i vardagen hantering av pengar som vi kommer att prata om i dagens artikel.Hålla dessa vanor, och du kan nå höga inkomster.Bara inte kalla det för "rikedom" eller "rikedom" för ingenting!Detta är en mycket enkel fråga om korrekt hantering av pengar, som endast består av tre små steg: 1) Överordnade ska vara ärlig. De flesta av oss har hört denna fras så många gånger tidigare, så vi be...</p>
+                    </div>
+                    <p class="text-center"><a href="630a5f9ea6bcb482f9f7df20446d430e.html" class="btn btn-primary btn-custom">Läs mer</a></p>
+                </article>
+                
+
+                <article class="blog-entry">
+                    <div class="blog-wrap">
+                        <span class="category text-center"><a href="CoMYzXoNyRcqOl.html">Hur man sparar pengar</a></span>
+                        <h2 class="text-center"><a href="CoMYzXoNyRcqOl.html">Detta förklarar varför människor kommer aldrig bli rik (och vice versa)</a></h2>
+                        <div class="blog-image">
+                            <a href="CoMYzXoNyRcqOl.html" class="blog-img text-center" style="background-image: url(./assets/images/john-schnobrich-flpc9_vocj4-unsplash.jpg); background-size: cover"><span><i class="icon-link"></i></span></a>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p class="first-letra"> <strong></strong> Varför har vissa människor tycker att det är så lätt att bli rik, medan andra har att arbeta hela sitt liv (från lönecheck till lönecheck)?Det verkar vara så att vissa människor har en fantastisk förmåga att alltid vara "på pengar" - medan andra har att göra med vad de har. I den här artikeln, vi kommer att prata om varför en del människor kommer aldrig att bli rik, medan andra har lucky break som de föddes in i en rik familj.Faktum är att alla kan bli rika ...</p>
+                    </div>
+                    <p class="text-center"><a href="CoMYzXoNyRcqOl.html" class="btn btn-primary btn-custom">Läs mer</a></p>
+                </article>
+                
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    #colorlib-container {
+        /* Owl Override Style */ }
+    #colorlib-container .owl-carousel .owl-controls,
+    #colorlib-container .owl-carousel-posts .owl-controls {
+        margin-top: 0; }
+    #colorlib-container .owl-carousel .owl-controls .owl-nav .owl-next,
+    #colorlib-container .owl-carousel .owl-controls .owl-nav .owl-prev,
+    #colorlib-container .owl-carousel-posts .owl-controls .owl-nav .owl-next,
+    #colorlib-container .owl-carousel-posts .owl-controls .owl-nav .owl-prev {
+        bottom: -5px;
+        z-index: 9999;
+        position: absolute;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        padding: 0; }
+    #colorlib-container .owl-carousel .owl-controls .owl-nav .owl-next,
+    #colorlib-container .owl-carousel-posts .owl-controls .owl-nav .owl-next {
+        right: -5px; }
+    #colorlib-container .owl-carousel .owl-controls .owl-nav .owl-next:hover,
+    #colorlib-container .owl-carousel-posts .owl-controls .owl-nav .owl-next:hover {
+        margin-right: 5px !important; }
+    #colorlib-container .owl-carousel .owl-controls .owl-nav .owl-prev,
+    #colorlib-container .owl-carousel-posts .owl-controls .owl-nav .owl-prev {
+        right: 54px; }
+    #colorlib-container .owl-carousel .owl-controls .owl-nav .owl-prev:hover,
+    #colorlib-container .owl-carousel-posts .owl-controls .owl-nav .owl-prev:hover {
+        margin-left: 0 !important; }
+    #colorlib-container .owl-carousel-posts .owl-controls .owl-nav .owl-next i,
+    #colorlib-container .owl-carousel-posts .owl-controls .owl-nav .owl-prev i,
+    #colorlib-container .owl-carousel-fullwidth .owl-controls .owl-nav .owl-next i,
+    #colorlib-container .owl-carousel-fullwidth .owl-controls .owl-nav .owl-prev i {
+        color: #000; }
+    #colorlib-container .owl-carousel-posts .owl-controls .owl-nav .owl-next:hover i,
+    #colorlib-container .owl-carousel-posts .owl-controls .owl-nav .owl-prev:hover i,
+    #colorlib-container .owl-carousel-fullwidth .owl-controls .owl-nav .owl-next:hover i,
+    #colorlib-container .owl-carousel-fullwidth .owl-controls .owl-nav .owl-prev:hover i {
+        color: #000; }
+    #colorlib-container .owl-theme .owl-controls .owl-nav [class*=owl-] {
+        padding: 8px;
+        background: #F6490D;
+        border: 1px solid #f6490d;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        border-radius: 0; }
+    #colorlib-container .owl-theme .owl-controls .owl-nav [class*=owl-] i {
+        border: none; }
+    #colorlib-container .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+        background: #F6490D; }
+    #colorlib-container .owl-carousel .owl-controls .owl-nav .owl-next i,
+    #colorlib-container .owl-carousel .owl-controls .owl-nav .owl-prev i {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.7);
+        background: #F6490D; }
+    #colorlib-container .owl-carousel .owl-controls .owl-nav .owl-next:hover i,
+    #colorlib-container .owl-carousel .owl-controls .owl-nav .owl-prev:hover i {
+        color: white; }
+    #colorlib-container .owl-carousel .owl-dots {
+        display: none !important; }
+    #colorlib-container .item {
+        position: relative; }
+    #colorlib-container .item .pop-up-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(246, 73, 13, 0.8);
+        opacity: 0;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s; }
+    #colorlib-container .item .pop-up-overlay .desc {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin-top: -60px;
+        padding: 30px; }
+    #colorlib-container .item .pop-up-overlay .desc h3 {
+        color: rgba(255, 255, 255, 0.9);
+        margin-bottom: 10px; }
+    #colorlib-container .item .pop-up-overlay .desc span {
+        display: block;
+        color: rgba(255, 255, 255, 0.6); }
+    #colorlib-container .item .pop-up-overlay:hover, #colorlib-container .item .pop-up-overlay:focus {
+        text-decoration: none; }
+    #colorlib-container .item:hover .pop-up-overlay, #colorlib-container .item:focus .pop-up-overlay {
+        opacity: 1; }
+    #colorlib-container .blog-item {
+        position: relative;
+        display: block;
+        margin-bottom: 30px;
+        padding: 0; }
+    #colorlib-container .blog {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 400px;
+        width: 100%;
+        display: block; }
+
+    .blog-flex {
+        width: 100%;
+        display: block;
+        margin-bottom: 5em;
+        position: relative;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap; }
+    .blog-flex .half {
+        width: 50%;
+        display: inline-block; }
+    @media screen and (max-width: 768px) {
+        .blog-flex .half {
+            width: 100%; }
+        .blog-flex .half.blog-img {
+            height: 400px;
+            display: block; } }
+    .blog-flex .desc {
+        padding: 2em;
+        background: #fafafa; }
+    .blog-flex .desc h2 {
+        font-style: italic;
+        font-size: 28px;
+        line-height: 1.3; }
+    .blog-flex .desc h2 a {
+        color: #4d4d4d; }
+    .blog-flex .desc .category {
+        display: block;
+        margin-bottom: 20px;
+        font-family: "Lora", Georgia, serif;
+        font-size: 13px;
+        color: gray; }
+    .blog-flex .desc .category a {
+        color: gray; }
+
+    .blog-entry {
+        border-bottom: 1px solid #e6e6e6;
+        padding-bottom: 3em;
+        margin-bottom: 4em;
+        width: 100%;
+        display: block;
+        clear: both; }
+    .blog-entry .blog-wrap {
+        background: #fafafa;
+        padding: 2em 0;
+        margin-bottom: 40px;
+        position: relative;
+        display: block; }
+    .blog-entry .blog-img {
+        width: 100%;
+        height: 400px;
+        display: table;
+        margin-bottom: 40px;
+        position: relative;
+        z-index: 0; }
+    .blog-entry .blog-img span {
+        display: table-cell;
+        vertical-align: middle;
+        height: 400px;
+        z-index: 1;
+        opacity: 0;
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s; }
+    .blog-entry .blog-img span i {
+        color: #000;
+        padding: 1em;
+        background: #fff; }
+    .blog-entry .blog-img:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: '';
+        background: rgba(0, 0, 0, 0.3);
+        opacity: 0;
+        color: #fff;
+        z-index: -1;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+    .blog-entry .category {
+        display: block;
+        margin-bottom: 20px;
+        font-family: "Lora", Georgia, serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: 13px;
+        color: #f6490d; }
+    .blog-entry .category a {
+        color: #f6490d; }
+    .blog-entry h2 {
+        margin-bottom: 30px;
+        font-size: 28px;
+        font-style: italic; }
+    .blog-entry h2 a {
+        color: #4d4d4d; }
+    .blog-entry .blog-image {
+        position: relative; }
+    .blog-entry .blog-image .video {
+        display: table;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 400px; }
+    .blog-entry .blog-image .colorlib-video {
+        overflow: hidden;
+        margin-bottom: 30px; }
+    @media screen and (max-width: 768px) {
+        .blog-entry .blog-image .colorlib-video {
+            height: 300px; } }
+    .blog-entry .blog-image .colorlib-video a {
+        z-index: 1001;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -45px;
+        margin-left: -45px;
+        width: 90px;
+        height: 90px;
+        display: table;
+        text-align: center;
+        background: #fff;
+        -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
+        -ms-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
+        -o-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%; }
+    .blog-entry .blog-image .colorlib-video a i {
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 40px; }
+    .blog-entry .blog-image .colorlib-video .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s; }
+    .blog-entry .blog-image .colorlib-video:hover .overlay {
+        background: rgba(0, 0, 0, 0.7); }
+    .blog-entry .blog-image .colorlib-video:hover a {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1); }
+    .blog-entry .desc {
+        margin-bottom: 4em;
+        position: relative; }
+    .blog-entry .desc blockquote {
+        margin-left: 50px;
+        padding-left: 30px;
+        background: #fafafa; }
+    .blog-entry .desc p.first-letra:first-child:first-letter {
+        color: #000;
+        float: left;
+        font-family: Georgia;
+        font-size: 110px;
+        line-height: 90px;
+        padding-top: 4px;
+        padding-right: 8px;
+        padding-left: 3px; }
+    .blog-entry blockquote {
+        font-style: italic;
+        font-family: "Lora", Georgia, serif;
+        color: #999999;
+        font-size: 20px; }
+    .blog-entry ul li {
+        margin-bottom: 20px; }
+
+    .btn-custom {
+        font-family: "Lora", Georgia, serif !important;
+        padding: 10px 30px;
+        font-style: italic !important; }
+
+    ul.share {
+        position: absolute;
+        top: 0;
+        left: -2.5em;
+        padding: 0;
+        margin: 0; }
+    ul.share li {
+        margin: 0 0 10px 0;
+        padding: 0;
+        list-style: none; }
+    ul.share li a {
+        padding: 0;
+        margin: 0; }
+    ul.share li a i {
+        font-size: 24px; }
+    ul.share li i {
+        font-size: 24px;
+        color: #F6490D; }
+
+    blockquote {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 30px;
+        background: #fafafa;
+        border-left-color: #F6490D;
+        font-style: italic;
+        font-family: "Lora", Georgia, serif;
+        color: #999999;
+        font-size: 20px; }
+</style>
+
+<footer class="footer">
+    <div class="footer_top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <div class="menu_links">
+                        <ul>
+                            <li><a href="contact.html">Kontakter</a></li>
+                            <li><a href="terms.html">Regler och villkor</a></li>
+                            <li><a href="policy.html">Sekretesspolicy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="socail_links">
+                        <ul>
+                            <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+                            <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
+                            <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
+                            <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right_text">
+        <div class="container">
+            <div class="footer_border"></div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+    .footer {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* line 6, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .footer_top {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: #001D38;
+    }
+
+    @media (max-width: 767px) {
+        /* line 6, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+        .footer .footer_top {
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        /* line 6, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+        .footer .footer_top {
+            padding-top: 50px;
+            padding-bottom: 60px;
+        }
+    }
+
+    /* line 20, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .footer_top .menu_links ul li {
+        display: inline-block;
+        margin-right: 46px;
+    }
+
+    @media (max-width: 767px) {
+        /* line 20, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+        .footer .footer_top .menu_links ul li {
+            margin-right: 20px;
+        }
+    }
+
+    /* line 26, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .footer_top .menu_links ul li a {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    /* line 30, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .footer_top .menu_links ul li a:hover {
+        color: #615CFD;
+    }
+
+    /* line 38, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .copy-right_text {
+        padding-bottom: 30px;
+        background: #001D38;
+    }
+
+    /* line 41, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .copy-right_text .footer_border {
+        padding-bottom: 30px;
+        border-top: 1px solid #334A60;
+    }
+
+    /* line 45, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .copy-right_text .copy_right {
+        font-size: 13px;
+        color: #C7C7C7;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+
+    @media (max-width: 767px) {
+        /* line 45, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+        .footer .copy-right_text .copy_right {
+            font-size: 13px;
+        }
+    }
+
+    /* line 53, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .copy-right_text .copy_right a {
+        color: #5DB2FF;
+    }
+
+    /* line 58, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .socail_links {
+        text-align: right;
+    }
+
+    @media (max-width: 767px) {
+        /* line 58, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+        .footer .socail_links {
+            text-align: left;
+            margin-top: 30px;
+        }
+    }
+
+    /* line 67, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .socail_links ul li {
+        display: inline-block;
+    }
+
+    /* line 70, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .socail_links ul li a {
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        text-align: center;
+        background: transparent;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        line-height: 40px !important;
+        margin-right: 7px;
+        color: #FFFFFF;
+        line-height: 40px !important;
+        border: 1px solid #334A60;
+        font-size: 15px;
+    }
+
+    /* line 84, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .socail_links ul li a:hover {
+        color: #fff !important;
+        background: #615CFD;
+        border: 1px solid #615CFD;
+    }
+</style>

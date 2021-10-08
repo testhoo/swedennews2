@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+
+    <title>Min lön</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900|Rubik:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/vendor/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+    <script src="js/vendor/html5shiv.min.js"></script>
+    <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://use.fontawesome.com/9b701ba3c8.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <div class="header-fixed">
+        <div class="container-fluid pl-120 pr-120 position-relative">
+            <div class="row d-flex align-items-center">
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <!-- Logo -->
+                    <p class="logo text-uppercase">
+                        <a href="index.html">Jag är en investerare</a>
+                    </p>
+                    <!-- End of Logo -->
+                </div>
+
+                <div class="col-lg-9 col-md-8 col-6 d-flex justify-content-end position-static">
+                    <!-- Nav Menu -->
+                    <div class="nav-menu-cover">
+                        <ul class="nav nav-menu">
+                            <li><a href="index.html">Viktigaste</a></li>
+                            <li class="menu-item-has-children"><a href="#">Artiklar</a>
+                                <ul class="sub-menu"><li class="sub-menu-close"> <i class="fa fa-long-arrow-left"></i> Artiklar</li>
+                                    
+                                    <li><a href="1e6d4ab0832a167b7c7c8e870982638a.html">Hur rika människor tr...</a></li>
+                                    
+
+                                    <li><a href="630a5f9ea6bcb482f9f7df20446d430e.html">Hur man sparar pengar ...</a></li>
+                                    
+
+                                    <li><a href="CoMYzXoNyRcqOl.html">Detta förklarar varf...</a></li>
+                                    
+
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Kontakter</a></li>
+                            <li><a href="policy.html">Sekretesspolicy</a></li>
+                            <li><a href="terms.html">Regler och villkor</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Nav Menu -->
+
+                    <!-- Mobile Menu -->
+                    <div class="mobile-menu-cover">
+                        <ul class="nav mobile-nav-menu">
+                            <li class="search-toggle-open">
+                                <img alt="" class="img-fluid svg" src="assets/images/search-icon.svg">
+                            </li>
+                            <li class="search-toggle-close hide">
+                                <img alt="" class="img-fluid" src="assets/images/close.svg">
+                            </li>
+                            <li class="nav-menu-toggle">
+                                <img alt="" class="img-fluid svg" src="assets/images/menu-toggler.svg">
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End of Mobile Menu -->
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<style>
+    .header {
+        min-height: 107px;
+    }
+    .header .header-fixed {
+        padding: 20px 0px;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+        z-index: 9999;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        box-shadow: 0 0 2px -1px #000;
+        background: #ffffff;
+    }
+    .header .header-fixed.is-sticky {
+        padding: 0px 0px;
+        background-color: #fff;
+    }
+    @media only screen and (max-width: 991px) {
+        .header .logo {
+            margin-left: 30px;
+        }
+    }
+    @media only screen and (max-width: 575px) {
+        .header .logo {
+            margin-left: 0;
+        }
+    }
+
+    @media only screen and (max-width: 991px) {
+        .nav-menu {
+            display: block;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            width: 100%;
+            padding: 0px 15px 0px 45px;
+            opacity: 0;
+            visibility: hidden;
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+            z-index: -99;
+        }
+    }
+    @media only screen and (max-width: 575px) {
+        .nav-menu {
+            padding: 0px 0px 0px 15px;
+        }
+    }
+    .nav-menu.show {
+        opacity: 1;
+        visibility: visible;
+        z-index: 99;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu.show {
+            margin-top: 0;
+        }
+    }
+    .nav-menu li {
+        position: relative;
+    }
+    .nav-menu li:hover > a {
+        color: #FF7171;
+    }
+    .nav-menu li.current-menu-item a {
+        color: #FF7171;
+    }
+    .nav-menu li.menu-item-has-children {
+        padding-right: 30px;
+        position: relative;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu li.menu-item-has-children {
+            position: static;
+        }
+    }
+    .nav-menu li.menu-item-has-children:hover > .sub-menu {
+        visibility: visible;
+        opacity: 1;
+        margin-top: 0;
+    }
+    .nav-menu li.menu-item-has-children > a {
+        position: relative;
+    }
+    .nav-menu li.menu-item-has-children > a:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        left: 100%;
+        margin-left: -23px;
+        font-family: FontAwesome;
+    }
+    .nav-menu li a {
+        color: #333;
+        display: block;
+    }
+    .nav-menu li .sub-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        min-width: 185px;
+        height: auto;
+        box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.04);
+        background-color: #fff;
+        padding: 25px 0px;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: 0.4s ease-in-out;
+        transition: 0.4s ease-in-out;
+        z-index: 9;
+        margin-top: -10px;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu li .sub-menu {
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+            overflow-y: auto;
+            margin-top: 0;
+        }
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu li .sub-menu.show {
+            left: 0;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    .nav-menu li .sub-menu li.sub-menu-close {
+        display: none;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu li .sub-menu li.sub-menu-close {
+            display: block;
+            font-size: 20px;
+            font-family: "Spectral", serif;
+            padding: 5px 30px;
+            padding-bottom: 15px;
+            cursor: pointer;
+            color: #FF7171;
+        }
+    }
+    .nav-menu li .sub-menu li a {
+        font-size: 16px;
+        font-family: "Spectral", serif;
+        padding: 8px 30px;
+    }
+    .nav-menu > li {
+        margin-right: 30px;
+        padding: 20px 0px;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu > li {
+            padding: 15px 0px;
+        }
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu > li:first-child {
+            margin-top: 15px;
+        }
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu > li:last-child {
+            margin-bottom: 15px;
+        }
+    }
+    .nav-menu > li.menu-item-has-children {
+        padding-right: 15px;
+        position: relative;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu > li.menu-item-has-children {
+            position: static;
+        }
+    }
+    .nav-menu > li.menu-item-has-children > a {
+        position: relative;
+    }
+    .nav-menu > li.menu-item-has-children > a:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        left: 100%;
+        margin-left: 5px;
+        font-family: FontAwesome;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu > li.menu-item-has-children > a:after {
+            content: "";
+        }
+    }
+    .nav-menu > li > a {
+        font-family: "Spectral", serif;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu > li > a {
+            font-size: 20px;
+        }
+    }
+    .nav-menu > li > .sub-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+    @media only screen and (max-width: 991px) {
+        .nav-menu > li > .sub-menu {
+            top: 0;
+            left: 100%;
+        }
+    }
+
+    .mobile-nav-menu li {
+        padding: 20px 0px;
+        cursor: pointer;
+    }
+    .mobile-nav-menu li.nav-menu-toggle {
+        display: none;
+        margin-right: 30px;
+    }
+    @media only screen and (max-width: 991px) {
+        .mobile-nav-menu li.nav-menu-toggle {
+            display: block;
+        }
+    }
+    @media only screen and (max-width: 575px) {
+        .mobile-nav-menu li.nav-menu-toggle {
+            margin-right: 0;
+        }
+    }
+    .mobile-nav-menu li.search-toggle-open, .mobile-nav-menu li.search-toggle-close {
+        width: 18px;
+    }
+    @media only screen and (max-width: 991px) {
+        .mobile-nav-menu li.search-toggle-open, .mobile-nav-menu li.search-toggle-close {
+            margin-right: 20px;
+        }
+    }
+    .mobile-nav-menu li.hide {
+        display: none;
+    }
+    .mobile-nav-menu li svg {
+        height: 15px;
+    }
+</style>
+
+<main>
+  <div id="content" class="site-content" style="padding-top: 100px;">
+    <div class="row justify-content-center" style="padding-left: 50px;">
+      <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
+        <div>
+          <div class="img_card">
+            <div class="row justify-content-center">
+              <div class="col-md-8 col-7 content_section">
+                <div class="content_box">
+                  <div class="content_box_inner">
+                    <div>
+                      <h3>
+                        Sekretesspolicy
+                      </h3>
+                      <pre style="width:100%; white-space: pre-line!important;">
+                                         Behandling av personuppgifter politik
+ 1. Allmänna bestämmelser
+Denna behandling av personuppgifter policy har upprättats i enlighet med kraven i den Federala lagen "om personuppgifter".
+lag 27.07.2006 Nr 152-FZ "om personuppgifter" och beskriver förfarandet för behandling av personuppgifter
+och åtgärder för att säkerställa att säkerheten för personuppgifter data för Ivan Sidorski Mikhailov (nedan kallad Användaren).
+Operatören mål och förverkligandet av sin verksamhet med de rättigheter och
+friheter man och medborgare under behandling av personuppgifter, inklusive skydd av rätten till okränkbarhet
+eget liv, personliga och familjens integritet.
+Real operatörens policy för behandling av personuppgifter (nedan kallad Policy) gäller all information som tillhandahålls av den Operatör
+som Operatören kan få om besökare på webbplatsen <span class="server-name"></span>.
+                                        Grundläggande begrepp som används i den Politiska
+Automatiserad behandling av personuppgifter behandling av personuppgifter med hjälp av datateknik.
+Blockering av personuppgifter, – tillfälligt upphörande av behandling av personuppgifter (med undantag för de fall när
+behandlingen är nödvändig för att klargöra personliga data);
+En webbplats är en samling av grafik-och informationsmaterial, samt datorprogram och databaser som ger
+deras tillgänglighet på Internet på nätet adress <span class="server-name"></span>;
+                                         Information om personuppgifter — en samling av personuppgifter som finns i databaser, och tillhandahåller följande information:
+deras behandling av information, teknik och tekniska medel.
+Depersonalisation av personuppgifter och om åtgärder resulterar i vilket det är omöjligt att avgöra utan att använda följande metoder: ytterligare information
+personuppgifter som hör till en viss Användare eller andra personliga uppgifter som är föremål för.
+Behandling av personuppgifter – varje åtgärd (operation) eller en uppsättning åtgärder (insatser) som utförs
+med eller utan användning av verktyg för automatisering med personuppgifter, inklusive insamling, registrering,
+systematisering, ackumulation, lagring, förädling (uppdatering, ändring), utvinning, användning, överföring (utdelning, 
+bestämmelsen, fi), depersonalisation, blockering, utplåning, förstörelse av personuppgifter.
+Föraren – en statlig eller kommunal myndighet, juridisk eller fysisk person, vare sig självständigt eller tillsammans
+med andra personer som organiserar och (eller) behandla personuppgifter, samt fastställa de ändamål för behandling
+personliga uppgifter, sammansättning av personuppgifter som behandlas, åtgärder (insatser) som utförs med personuppgifter uppgifter.
+Personuppgifter – all information som direkt eller indirekt till en specifik eller identifierbar Användare
+webbplatsen <span class="server-name"></span>;
+                                        Användare – alla besökare av webbplatsen <span class="server-name"></span>;
+                                         Tillhandahållande av personuppgifter – åtgärder som syftar till att utlämnande av personuppgifter till en viss person
+till en viss person eller grupp av personer.
+Spridning av personuppgifter – några åtgärder som syftar till att avslöja dina personliga uppgifter till en obestämd person
+till allmänheten (överföring av personuppgifter) eller att bekanta sig med personuppgifter av ett obegränsat antal personer, däribland 
+utlämnande av personuppgifter i massmedia, placering i informations-och telenät 
+eller ger tillgång till personuppgifter på något annat sätt.
+Gränsöverskridande överföring av personliga data – överföring överföring av personliga uppgifter till en utländsk myndighet. 
+för att myndigheterna i en främmande stat, till en utländsk fysisk person eller en utländsk juridisk person.
+Förstörelse av personuppgifter – några åtgärder som resulterade i en permanent destruktion av personuppgifter med tillstånd av användaren.
+det är omöjligt för en ytterligare utveckling återställa innehållet av personuppgifter personuppgifter informationssystem och 
+(eller) som ett resultat av vilket material som bärare av personuppgifter förstörs.
+
+Operatören kan behandla följande personuppgifter om Användaren
+Efternamn, förnamn och efternamn;
+E-post adress.
+Telefonnummer.
+År, månad, datum och plats för födelsen.
+Foto;
+Även på hemsidan, insamling och bearbetning av anonyma data om besökare (inklusive "cookies") genom de tjänster som Internet-statistik (Yandex Metriska och Google Analytics och andra).
+Ovan nämnda uppgifter, nedan kallat Politik, kombineras under det Allmänna begreppet Personuppgifter.
+
+Mål behandling av personuppgifter
+Den behandling av Användarens personuppgifter är för att informera Användaren genom att skicka e-postmeddelanden. 
+att ge Användaren tillgång till tjänster, information och/eller material som finns på webbplatsen.
+Operatören har rätt att skicka meddelanden till Användaren om nya tjänster och produkter, special-erbjudanden och olika evenemang. Användare kan alltid vägra att ta emot informativa meddelanden genom att skicka ett e-post till Operatören på den politiska e-post adress@<span class="server-name"></span>  märkt "Avprenumerera från anmälningar av nya produkter och tjänster och speciella erbjudanden".
+Depersonalized användardata som samlats in av Internet statistik tjänster används för att samla in information om Användarnas aktiviteter på webbplatsen, för att förbättra kvaliteten av webbplatsen och dess innehåll.
+
+Rättslig grund för behandling av personuppgifter
+Operatören behandlar Användarens personuppgifter endast om de har fyllt i och / eller som skickas av Användare oberoende av varandra genom särskilda blanketter finns på plats <span
+                          class="server-name"></span> . Genom att fylla i de blanketter och/eller skicka din personliga information till Operatören, Användaren samtycker till denna Policy.
+Operatören processer depersonalized data om Användaren, om detta är tillåtet i Användarens webbläsare inställningar (spara cookies och med hjälp av cookies är aktiverat JavaScript-teknik).
+
+Förfarande för att samla in, lagra, överföra och andra typer av behandling av personuppgifter
+Säkerheten för personuppgifter som behandlas av Operatören säkerställs genom genomförandet av rättsliga, organisatoriska och tekniska åtgärder som är nödvändiga för att fullt ut uppfylla kraven i den nuvarande lagstiftningen lagstiftning om skydd av personuppgifter.
+Operatören garanterar säkerheten för personuppgifter och tar alla möjliga åtgärder för att utesluta tillgång till personliga data av obehöriga personer.
+Användarens personuppgifter kommer aldrig, under några som helst omständigheter, att överföras till tredje part, med undantag för ärenden som rör genomförandet av den nuvarande lagstiftningen.
+I händelse av att upptäcka felaktigheter i personuppgifter, kan Användaren uppdatera dem självständigt genom att skicka ett meddelande till Operatörens e-post adress politiska@<span class="server-name"></span> märkt "Uppdatering av personliga uppgifter".
+Begreppet behandling av personuppgifter är obegränsad. Användaren kan återkalla sitt samtycke till behandling av personuppgifter som helst genom att skicka ett meddelande till Operatören via e-post till Operatören e-post adress politiska@<span
+                          class="server-name"></span>  märkt "Återkallande av samtycke till behandling av personuppgifter".
+
+Gränsöverskridande överföring av personuppgifter
+Operatören före genomförandet av gränsöverskridande överföring av personuppgifter är skyldig att se till att den utländska staten på vars territorium det är tänkt att genomföra överföringen av personuppgifter, tillförlitlig skydd av personuppgifter ämnen ingår.
+Gränsöverskridande överföring av personuppgifter på territorium av utländska Stater som inte uppfyller ovanstående krav får göras endast om det är skriftligt medgivande av personuppgifter som är föremål för gränsöverskridande överföring hans personliga data och/eller utförandet av ett kontrakt som personlig registrerade är part.
+
+Avslutande bestämmelser
+Användaren kan få eventuella förtydliganden i frågor av intresse med anknytning till behandling av personuppgifter genom att kontakta Operatören via e-post politik@<span class="server-name"></span>.
+                                        Detta dokument kommer att avspegla alla förändringar i Operatörens behandling av personuppgifter politik. Policyn gäller på obestämd tid tills den ersätts med en ny version.
+ Den nuvarande versionen av den Politik som är fritt tillgängliga på Internet, på <span class="server-name"></span>/policy.html.
+            					        </pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+    <div class="footer_top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <div class="menu_links">
+                        <ul>
+                            <li><a href="contact.html">Kontakter</a></li>
+                            <li><a href="terms.html">Regler och villkor</a></li>
+                            <li><a href="policy.html">Sekretesspolicy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="socail_links">
+                        <ul>
+                            <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+                            <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
+                            <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
+                            <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right_text">
+        <div class="container">
+            <div class="footer_border"></div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+    .footer {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* line 6, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .footer_top {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: #001D38;
+    }
+
+    @media (max-width: 767px) {
+        /* line 6, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+        .footer .footer_top {
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        /* line 6, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+        .footer .footer_top {
+            padding-top: 50px;
+            padding-bottom: 60px;
+        }
+    }
+
+    /* line 20, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .footer_top .menu_links ul li {
+        display: inline-block;
+        margin-right: 46px;
+    }
+
+    @media (max-width: 767px) {
+        /* line 20, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+        .footer .footer_top .menu_links ul li {
+            margin-right: 20px;
+        }
+    }
+
+    /* line 26, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .footer_top .menu_links ul li a {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    /* line 30, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .footer_top .menu_links ul li a:hover {
+        color: #615CFD;
+    }
+
+    /* line 38, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .copy-right_text {
+        padding-bottom: 30px;
+        background: #001D38;
+    }
+
+    /* line 41, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .copy-right_text .footer_border {
+        padding-bottom: 30px;
+        border-top: 1px solid #334A60;
+    }
+
+    /* line 45, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .copy-right_text .copy_right {
+        font-size: 13px;
+        color: #C7C7C7;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+
+    @media (max-width: 767px) {
+        /* line 45, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+        .footer .copy-right_text .copy_right {
+            font-size: 13px;
+        }
+    }
+
+    /* line 53, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .copy-right_text .copy_right a {
+        color: #5DB2FF;
+    }
+
+    /* line 58, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .socail_links {
+        text-align: right;
+    }
+
+    @media (max-width: 767px) {
+        /* line 58, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+        .footer .socail_links {
+            text-align: left;
+            margin-top: 30px;
+        }
+    }
+
+    /* line 67, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .socail_links ul li {
+        display: inline-block;
+    }
+
+    /* line 70, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .socail_links ul li a {
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        text-align: center;
+        background: transparent;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        line-height: 40px !important;
+        margin-right: 7px;
+        color: #FFFFFF;
+        line-height: 40px !important;
+        border: 1px solid #334A60;
+        font-size: 15px;
+    }
+
+    /* line 84, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
+    .footer .socail_links ul li a:hover {
+        color: #fff !important;
+        background: #615CFD;
+        border: 1px solid #615CFD;
+    }
+</style>
